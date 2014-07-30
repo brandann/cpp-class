@@ -1,0 +1,47 @@
+//Weight.h
+#ifndef WEIGHT_H
+#define WEIGHT_H
+#include <iostream>
+class Weight
+{
+	public:
+		Weight();
+		virtual ~Weight();
+	protected:
+	private:
+};
+
+
+
+
+#endif // WEIGHT_H
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+//Weight.cpp
+
+
+#include "Weight.h"
+#include <iostream>
+
+
+using namespace std;
+
+
+Weight::Weight()
+{
+	//const
+}// end Weight
+
+
+Weight::~Weight()
+{
+	//deconst
+}// end ~Weight
